@@ -8,6 +8,9 @@
 *.so
 *.dylib
 
+.github/workflows/*
+!.github/workflows/*.yml
+
 # Test binary, built with `go test -c`
 *.test
 
